@@ -3,9 +3,6 @@ import os
 from tkinter import Tk, Label, Entry, Button
 import time
 
-"https://cfvod.kaltura.com/scf/hls/p/1612851/sp/161285100/serveFlavor/entryId/0_g4xnlfs7/v/2/ev/7/flavorId/0_a1y5kx98/name/a.mp4/seg-##n##-v1-a1.ts?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZnZvZC5rYWx0dXJhLmNvbS9zY2YvaGxzL3AvMTYxMjg1MS9zcC8xNjEyODUxMDAvc2VydmVGbGF2b3IvZW50cnlJZC8wX2c0eG5sZnM3L3YvMi9ldi83L2ZsYXZvcklkLzBfYTF5NWt4OTgvbmFtZS9hLm1wNC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzE0NzU3MTQ0fX19XX0_&Signature=Hl3zEUv7QEwoVN~5ALYy1OEBnN5~wKxeLm6y69p1~R~ya0pilMFFQGcPwflBiFc9wgeTUqMQ44bTLzCxhn6OVyjKsCmZn-Nv4wGqFohIvKZGr3aD9wmWQv0qxdtAe6nzj7LW3LlgxbiIq3IvtT3rBsdOqWjGZooW1ePZkIflfqXliGnB~Qqd4aXF3WwHEzPPK7gfXcNsfl90pykGmoWIt~Cnk5-tkVH9AJRbMHd7wbDD284CU2pNkMCDMvV-kuc7zAT0FUjvmqyzaPvstXbGknF~KSC2h6I72by7AeAdqCH08KVy8qGfLu-2EqWklxF0DxlkSKq7vjvhEDsir-YuKA__&Key-Pair-Id=APKAJT6QIWSKVYK3V34A"
-
-
 def downloadTsFiles(url, r, referer='https://google.com/', user_agent='Chrome/89.0.4389.90', output_name='output', work_dir=os.path.abspath('.'), output_dir='.'):
 
     if not referer:
